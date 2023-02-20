@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Himalaya;
+    src: url('../fonts/himalaya/himalaya.ttf');
+}
+@font-face {
+    font-family: Merriweather;
+    src: url('../fonts/Merriweather/Merriweather-Regular.ttf');
+}
+@font-face {
+    font-family: 'Merriweather Black';
+    src: url('../fonts/Merriweather/Merriweather-Black.ttf');
+}
+@font-face {
+    font-family: 'Merriweather Black Italic';
+    src: url('../fonts/Merriweather/Merriweather-BlackItalic.ttf');
+}
+@font-face {
+    font-family: 'Merriweather Bold';
+    src: url('../fonts/Merriweather/Merriweather-Bold.ttf');
+}
+@font-face {
+    font-family: 'Merriweather Bold Italic';
+    src: url('../fonts/Merriweather/Merriweather-BoldItalic.ttf');
+}
+@font-face {
+    font-family: 'Merriweather Italic';
+    src: url('../fonts/Merriweather/Merriweather-Italic.ttf');
+}
+@font-face {
+    font-family: 'Merriweather Light';
+    src: url('../fonts/Merriweather/Merriweather-light.ttf');
+}
+@font-face {
+    font-family: 'Merriweather Light Italic';
+    src: url('../fonts/Merriweather/Merriweather-LightItalic.ttf');
+}

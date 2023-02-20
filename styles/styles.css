@@ -1,0 +1,168 @@
+body {
+    font-family: Merriweather, 'Times New Roman';
+    margin: 0;
+	background: #f3ece4;
+	color: #373234;
+}
+
+/*==========_HEADER_==========*/
+
+header {
+    overflow: hidden; 
+    width: 1170px;
+    display: block;
+    margin: auto;
+    padding: 50px 0;
+}
+    .logo {
+        width: 195px;
+        height: 41px;
+        float: left;
+    }
+        a {text-decoration: none;}
+        a .icon {
+            background-color: #d84339;
+            color: #ffffff;
+            font-family: 'Iskoola Pota', 'Times New Roman';
+            font-size: 37px;
+            padding: 1px 10px;
+            width: 41px;
+            height: 41px;
+            box-sizing: border-box;
+            float: left;
+        }
+        a .logo-words {
+            display: inline-block;
+            margin-left: 10px;
+            color: #000000;
+            font-size: 20px;
+        }
+            .descript {
+                font-family: 'Microsoft Himalaya', Himalaya, 'Courier New';
+                letter-spacing: 12px;
+            }
+            .title {
+                font-family: 'Merriweather Bold', 'Times New Roman';
+                letter-spacing: 2px;
+            }
+
+    /*==========_NAVIGATION_==========*/
+    nav {
+        float: right;
+        margin: 0;
+        background-color: #d84339;
+    }
+        ul.menu {
+            list-style-type: none; 
+            margin: 0;
+            padding: 0;
+            height: 40px;
+        }
+        ul.menu li {
+            border-bottom: 3px solid transparent;
+            float: left;
+            font-family: 'Merriweather Light', 'Times New Roman';
+            margin: 0 25px;
+            padding: 10px 0;
+            box-sizing: border-box;
+            transition: 0.2s;
+        }
+        ul.menu li a {color: #ffffff;}
+        ul.menu li:hover {border-bottom: 3px solid #ffffff;}
+
+/*==========_MAIN_==========*/
+
+main {}
+    
+    /*==========_ARTICLE-DESIGNER-INFOR_==========*/
+    article.designer-infor {
+        background-color: #e8dccc; 
+        overflow: hidden;
+        margin-bottom: 50px;
+        width: 1170px;
+        display: block;
+        margin: auto;
+		margin-top: 100px;
+		margin-bottom: 100px;
+    }
+        /*==========_AVATAR_==========*/
+		article.designer-infor img {float: left;}
+			ul.intro {
+				list-style-type: none;
+				font-family: 'Merriweather Light', 'Times New Roman';
+				font-size: 14px;
+				display: inline-block;
+				margin: 20px 0;
+			}
+			ul.intro li {line-height: 30px;}
+			ul.intro b {color: #000;}
+    
+        /*==========_BUTTON-CONTACT_==========*/
+		article.designer-infor button {
+			margin-left: 250px;
+			border: 1px solid transparent;
+			background-color: #d84339;
+			color: #ffffff;
+			font-family: 'Merriweather Light', 'Times New Roman';
+			font-size: 14px;
+			width: 171px;
+			height: 45px;
+			transition: 0.3s;
+    	}
+		article.designer-infor button:hover {
+			border: 2px solid #d84339;
+			background-color: #ffffff;
+			color: #d84339;
+		}
+    
+    /*==========_ARTICLE-CONTENT_==========*/
+    article.content {margin: 150px 0;}
+        ul.images {
+            overflow: hidden; 
+            list-style-type: none;
+            display: block;
+            margin: auto;
+            padding: 0;
+            text-align: center;
+            width: 1231px;
+        }
+        ul.images li {
+            float: left;
+            text-align: center;
+            display: block;
+            margin: 0 0 30px 30px;
+            transition: 0.3s;
+			background: #fff;
+        }
+		ul.images li:hover {box-shadow: 0 10px 10px 0 #808080;}
+
+/*==========_FOOTER_==========*/
+
+footer {}
+
+    /*==========_CONTACT_==========*/
+    ul.contact {
+        list-style-type: none; 
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    ul.contact li {
+        padding: 0 10px;
+        border-left: 1px solid #373234;
+        margin: 0;
+    }
+    ul.contact li:first-child {border-left: 1px solid transparent;}
+		ul.contact li a {color: #373234; transition: 0.2s;}
+    	ul.contact li a:hover {color: #d84339;}
+
+    /*==========_COPYRIGHT_==========*/
+    .copyright {
+        font-family: 'Merriweather Light', 'Times New Roman';
+        text-align: center; 
+        color: #5a5a5a;
+        line-height: 5px;
+        margin: 30px 0 100px 0;
+    }
+    .copyright span {color: #ff9311;}
